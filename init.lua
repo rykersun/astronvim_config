@@ -248,10 +248,12 @@ local config = {
   -- good place to configuring augroups/autocommands and custom filetypes
   polish = function()
     local set = vim.opt
+    local let = vim.g
     -- Set key binding
     set.shiftwidth = 4 -- Number of space inserted for indentation
     set.tabstop = 4 -- Number of space in a tab
     set.guifont= "JetBrainsMono Nerd Font:h18"
+    let.neovide_cursor_vfx_mode = "pixiedust"
     -- Set autocommands
     vim.api.nvim_create_augroup("packer_conf", { clear = true })
     vim.api.nvim_create_autocmd("BufWritePost", {
