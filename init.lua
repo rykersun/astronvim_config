@@ -254,6 +254,7 @@ local config = {
     set.tabstop = 4 -- Number of space in a tab
     set.guifont= "JetBrainsMono Nerd Font:h18"
     let.neovide_cursor_vfx_mode = "pixiedust"
+    let.neovide_cursor_vfx_particle_density = 50
     let.neovide_scroll_animation_length = 0
     -- Set autocommands
     vim.api.nvim_create_augroup("packer_conf", { clear = true })
