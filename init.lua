@@ -246,8 +246,8 @@ local config = {
 	-- good place to configuring augroups/autocommands and custom filetypes
 	polish = function()
 		-- indent setting
-		vim.opt.shiftwidth = 4
-		vim.opt.tabstop = 4
+		vim.opt.shiftwidth = 8
+		vim.opt.tabstop = 8
 		-- Set key binding
 		-- Set autocommands
 		vim.api.nvim_create_augroup("packer_conf", { clear = true })

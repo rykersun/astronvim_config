@@ -6,11 +6,12 @@ My AstroNvim Config.
 
 - npm
 - nodejs
+- python3.10-venv (DAP, linter...)
 
 ### Install command
 
 ```bash
-sudo apt install npm nodejs -y
+sudo apt install npm nodejs python3.10-venv -y
 ```
 
 ## Installation
