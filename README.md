@@ -7,7 +7,7 @@ My AstroNvim Config.
 - npm
 - nodejs
 
-### Install command:
+### Install command
 
 ```bash
 sudo apt install npm nodejs -y
